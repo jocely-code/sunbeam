@@ -78,6 +78,8 @@ header p {
     height: 200px;
 }
 
+
+
 h1 {
     position: absolute;
     top: 80px;
@@ -85,6 +87,10 @@ h1 {
     left: 500px;
     font-size: 50px;
     font-family: 'Mystery Quest';
+}
+
+.desc-text {
+    margin-top: 75px;
 }
 
 .header-2 {
@@ -115,12 +121,12 @@ h1 {
 /** main **/
 .container1 {
     display: flex;
+    border: 2px solid red;
 }
 
 .text-container {
     width: 900px;
 }
-
 
 h2 {
     font-family: 'Mystery Quest', sans-serif;
@@ -144,6 +150,24 @@ a:hover {
 
 li {
     margin-bottom: 10px;
+}
+
+button {
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(36, 91, 46);
+    border-color: white;
+}
+
+.button-text {
+    font-family: 'Crafty Girls';
+    color: white;
+}
+
+.baking-link {
+    margin-left: -45px;
 }
 
 /** specific images **/
@@ -170,3 +194,10 @@ li {
     font-size: 1.2rem;
     line-height: 1.6;
 }
+/* Green Caramel Apples - https://www.cursors-4u.com/cursor/foo27 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/green-caramel-apples-be34e4ee-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+
