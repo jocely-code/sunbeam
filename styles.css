@@ -28,6 +28,8 @@ header p {
     height: 200px;
 }
 
+
+
 h1 {
     position: absolute;
     top: 80px;
@@ -35,6 +37,10 @@ h1 {
     left: 500px;
     font-size: 50px;
     font-family: 'Mystery Quest';
+}
+
+.desc-text {
+    margin-top: 75px;
 }
 
 .header-2 {
@@ -65,14 +71,11 @@ h1 {
 /** main **/
 .container1 {
     display: flex;
+    border: 2px solid red;
 }
 
 .text-container {
     width: 900px;
-}
-
-.img-container {
-    
 }
 
 h2 {
@@ -99,8 +102,43 @@ li {
     margin-bottom: 10px;
 }
 
+button {
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(36, 91, 46);
+    border-color: white;
+}
+
+.button-text {
+    font-family: 'Crafty Girls';
+    color: white;
+}
+
+.baking-link {
+    margin-left: -45px;
+}
+
 /** specific images **/
 .container-img {
     width: 450px;
     height: 310px;
+    border: 2px solid red;
 }
+
+#smiski-baking {
+    width: 450px;
+    border: 4px solid red;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 60px;
+}
+
+#smiski-meditates {
+    width: 400px;
+    height: 310px;
+    margin-right: 20px;
+    border: 2px solid red;
+}
+
